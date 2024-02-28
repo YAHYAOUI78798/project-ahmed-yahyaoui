@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="STYLE-LOGIN.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <form name="loginForm" onsubmit="return validateForm(event) ">
+          <label for="Name">Name:</label>
+          <br />
+          <input type="text" name="name" placeholder="Your name" />
+          <br />
+          <label for="password">Password:</label>
+          <br />
+          <input type="password" name="password" placeholder="*********" />
+          <br />
+          <button type="submit">Login</button>
+          <button type="reset">cancel</button>
+          <br />
+        </form>
+      </div>
+      <div>
+        <img
+          src="C:\Users\LENOVO\Desktop\PROJET\panier-plein-produits-interieur-supermarche.jpg"
+          alt="shoppig photo"
+        />
+      </div>
+    </nav>
+
+    <script>
+      function validateForm(e) {
+        e.preventDefault();
+        var name = document.loginForm.name.value;
+        var password = document.loginForm.password.value;
+        if (name.length == 0) return alert(`e-mail is required`);
+        if (password.length < 10)
+          return alert(`password length should more than 10`);
+
+        window.location.assign(
+          "file:///C:/Users/LENOVO/Desktop/PROJET/inportant.html"
+        );
+      }
+    </script>
+
+
+
+  </body>
+</html>

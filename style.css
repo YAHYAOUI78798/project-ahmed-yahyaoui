@@ -1,0 +1,165 @@
+body {
+  background-color: rgb(209, 207, 201);
+}
+.UP {
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(182, 182, 182);
+  border: 5px dashed;
+  border-color: rgb(161, 161, 161);
+  margin: 0;
+  z-index: 2;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.help {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  color: rgb(114, 114, 114);
+}
+.shopping {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  color: rgb(114, 114, 114);
+}
+.text {
+  color: rgb(114, 114, 114);
+}
+.text:hover {
+  color: rgb(27, 26, 26);
+}
+.text2 {
+  color: rgb(114, 114, 114);
+}
+.text2:hover {
+  color: rgb(27, 26, 26);
+}
+.text3 {
+  color: rgb(114, 114, 114);
+}
+.text3:hover {
+  color: rgb(27, 26, 26);
+}
+.sec1 {
+  margin-top: 10rem;
+}
+.Products {
+  display: flex;
+  justify-content: space-between;
+  margin: bottom 30px;
+  border: 1px solid rgb(161, 161, 161);
+  background-color: rgb(255, 255, 255);
+}
+.phone {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(161, 161, 161);
+  width: 16.5%;
+  height: 16.5%;
+  display: block;
+}
+.prixphone {
+  font-size: 50px;
+}
+.clock {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(161, 161, 161);
+  width: 15rem;
+  height: 100%;
+  display: block;
+}
+.prixclock {
+  font-size: 48.2px;
+}
+.ps5 {
+  width: 15rem;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(161, 161, 161);
+  display: block;
+}
+.prixps5 {
+  font-size: 50px;
+}
+.gta6 {
+  width: 15rem;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(161, 161, 161);
+  display: block;
+}
+.prixgta6 {
+  font-size: 50px;
+}
+.Products2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  border: 2px solid rgb(161, 161, 161);
+  background-color: rgb(255, 255, 255);
+}
+.apple {
+  width: 13.5rem;
+  height: 27.4rem;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(161, 161, 161);
+  display: block;
+}
+.prixapple {
+  font-size: 34px;
+}
+.PC {
+  width: 13.5rem;
+  height: 27.4rem;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(161, 161, 161);
+  display: block;
+}
+.prixpc {
+  font-size: 29px;
+}
+.ps4 {
+  width: 15Srem;
+  height: 27.4rem;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(161, 161, 161);
+  display: block;
+}
+.prixps4 {
+  font-size: 40px;
+}
+.samsung {
+  width: 15rem;
+  height: 27.4rem;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(161, 161, 161);
+  display: block;
+}
+.prixsamsung {
+  font-size: 28px;
+}
+.baying {
+  display: flex;
+  font-size: 60px;
+  width: 100%;
+  flex-direction: between;
+  background-color: green;
+  color: rgb(0, 70, 0);
+}
+.baying:hover  {
+  display: flex;
+  font-size: 60px;
+  width: 100%;
+  flex-direction: between;
+  background-color: rgb(0, 68, 0);
+  color: rgb(0, 36, 0);
+}
+
